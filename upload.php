@@ -11,6 +11,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 $sql="INSERT INTO `shopping_cart` (`id`, `name`, `image`, `price`, `discount`)
  VALUES (NULL, '$pname', '$extnsn', '$price', '$dscnt')";
 if($con->query($sql)){
+    include('./others/navbar.php');
 echo "<h1 >Congratulation,Your product uploaded successfully.</h1>";
 echo "<h3 >All done,Just upload product image to the website owner now.</h3>";
 }
