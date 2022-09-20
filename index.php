@@ -18,6 +18,11 @@
   <h1> <a href="ViewOrderLog.php">See new orders.</a></h1>
   <h1>Add new item in website</h1>
 
+
+
+
+
+  
  <form action="upload.php" method="post">
   <div class="form-group">
     <label >Product name:</label>

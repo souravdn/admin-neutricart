@@ -1,10 +1,10 @@
 <?php
 //connect to db
-$servername="mysql-43037-0.cloudclusters.net";
+$servername="mysql-88558-0.cloudclusters.net";
  $database="neutrify";
-  $username="sourav";
- $password="Debnath@1";
-// $dname="neutrify";
+  $username="admin";
+ $password="JS1i8KdT";
+$dname="neutrify";
 $PORT="17303";
 
 
